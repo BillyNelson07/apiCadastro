@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
 const Usuario = sequelize.define(
-  "USUARIO",
+  "usuario",
   {
     nome: {
       type: DataTypes.STRING,
@@ -22,7 +22,7 @@ const Usuario = sequelize.define(
     },
   },
   {
-    tableName: "USUARIO",
+    tableName: "usuario",
     timestamps: true,
   },
 );
